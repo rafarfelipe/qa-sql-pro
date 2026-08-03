@@ -1,0 +1,5 @@
+1. Grava a aula → escreve no DBeaver à vontade
+2. Salva o script bruto em _rascunhos/aula-27-bruto.sql
+3. Abre o template → organiza as queries aprendidas
+4. Salva em queries/secao-07.../aula-27-where-orderby-limit.sql
+5. git add + commit → só a versão limpa vai pro GitHub
