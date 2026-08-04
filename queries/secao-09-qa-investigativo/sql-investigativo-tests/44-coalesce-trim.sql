@@ -158,9 +158,9 @@ ORDER BY id;
 
 
 -- ============================================================
--- RESUMO DOS EXERCÍCIOS
+-- RESUMO DAS INVESTIGAÇÕES
 -- ============================================================
--- Exercício | Suspeita                              | Condição de Falha
+-- Investigação | Suspeita                              | Condição de Falha
 -- ----------|---------------------------------------|--------------------
 -- 1         | Produtos sem desconto                 | COALESCE(discount_percentage, 0) = 0
 -- 2         | Pedidos sem desconto                  | COALESCE(discount_amount, 0) = 0

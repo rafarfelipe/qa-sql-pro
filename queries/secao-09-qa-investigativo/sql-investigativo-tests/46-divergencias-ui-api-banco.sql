@@ -154,9 +154,9 @@ LIMIT 10;
 
 
 -- ============================================================
--- RESUMO DOS EXERCÍCIOS
+-- RESUMO DAS INVESTIGAÇÕES
 -- ============================================================
--- Exercício | Suspeita                              | Condição de Falha
+-- Investigação | Suspeita                              | Condição de Falha
 -- ----------|---------------------------------------|--------------------
 -- 1         | Fornecedores únicos                   | COUNT(DISTINCT supplier_id)
 -- 2         | Produtos inativos no carrinho         | p.is_active = false

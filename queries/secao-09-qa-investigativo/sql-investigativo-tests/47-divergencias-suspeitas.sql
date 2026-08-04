@@ -194,9 +194,9 @@ GROUP BY c.id, c.name, c.is_active;
 
 
 -- ============================================================
--- RESUMO DOS EXERCÍCIOS
+-- RESUMO DAS INVESTIGAÇÕES
 -- ============================================================
--- Exercício | Suspeita                              | Condição de Falha
+-- Investigação | Suspeita                              | Condição de Falha
 -- ----------|---------------------------------------|--------------------
 -- 1         | Produto sumiu do carrinho             | p.is_active = false
 -- 2         | Preço do pedido diverge               | oi.price != p.price

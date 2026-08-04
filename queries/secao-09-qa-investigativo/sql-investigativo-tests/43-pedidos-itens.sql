@@ -109,9 +109,9 @@ ORDER BY total_avaliacoes DESC;
 
 
 -- ============================================================
--- RESUMO DOS EXERCÍCIOS
+-- RESUMO DAS INVESTIGAÇÕES
 -- ============================================================
--- Exercício | Suspeita                              | Condição de Falha
+-- Investigação | Suspeita                              | Condição de Falha
 -- ----------|---------------------------------------|--------------------
 -- 1         | Pedidos sem itens                     | COUNT(oi.id) = 0
 -- 2         | Produtos sem categoria válida         | category_id IS NULL OR c.id IS NULL

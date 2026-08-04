@@ -79,9 +79,9 @@ ORDER BY quantidade DESC;
 
 
 -- ============================================================
--- RESUMO DOS EXERCÍCIOS
+-- RESUMO DAS INVESTIGAÇÕES
 -- ============================================================
--- Exercício | Suspeita                              | Condição de Falha
+-- Investigação | Suspeita                              | Condição de Falha
 -- ----------|---------------------------------------|--------------------
 -- 1         | Fornecedores únicos                   | COUNT(DISTINCT supplier_id)
 -- 2         | Combinações categoria/status          | SELECT DISTINCT category_id, is_active
