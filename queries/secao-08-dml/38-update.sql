@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 08 - Manipulação de Dados para Testes
--- AULA  : 38 - UPDATE: ajustando dados com segurança
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 08 - Manipulação de Dados para Testes
+-- CONTEÚDO: UPDATE — Ajustando Dados com Segurança
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a atualizar dados com UPDATE de forma segura.
---   Para QAs, isso é essencial para:
+--   Atualizar dados com UPDATE de forma segura:
 --   - Ajustar dados para cenários de teste
 --   - Corrigir dados inconsistentes
 --   - Preparar massa de dados controlada
@@ -67,17 +66,17 @@ WHERE id BETWEEN 1021 AND 1026;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   UPDATE tabela SET coluna = valor WHERE condição → Atualizar registros
 --   WHERE → Sempre use WHERE para evitar atualizar tudo!
 --   Múltiplos campos → Separe por vírgula no SET
 --   updated_at = now() → Sempre atualize a data de modificação
 --   Faixa de IDs → BETWEEN valor1 AND valor2
---   
---   Dica de QA → Sempre confirme com SELECT antes e depois do UPDATE 
+--
+--   Dica de QA → Sempre confirme com SELECT antes e depois do UPDATE
 --    Use transações (BEGIN/COMMIT/ROLLBACK) em produção
 --                Mantenha um registro do que foi alterado
---   
+--
 --   Boas Práticas → - WHERE obrigatório (exceto quando quer atualizar tudo)
 --                   - Use now() para updated_at
 --                   - Teste com SELECT primeiro

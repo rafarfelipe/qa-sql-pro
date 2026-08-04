@@ -1,12 +1,13 @@
 -- ============================================================
 -- PROJETO : SQL & Banco de Dados para QA
--- SEÇÃO   : 09 - QA Investigativo
--- BANCO   : Supabase Northwind (PostgreSQL)
+-- MÓDULO  : 09 - QA Investigativo
+-- CONTEÚDO: Divergências Suspeitas
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Práticos sobre divergências entre UI, API e Banco.
---   Cada caso apresenta uma suspeita e você deve montar
---   a query que confirma ou descarta a hipótese.
+--   Investigar divergências entre UI, API e banco. Cada caso
+--   apresenta uma suspeita e exige a query que confirma ou
+--   descarta a hipótese.
 -- ============================================================
 
 

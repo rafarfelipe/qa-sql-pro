@@ -1,14 +1,14 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 31 - INNER JOIN: relacionando tabelas
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: INNER JOIN — Relacionando Tabelas
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a cruzar dados de múltiplas tabelas usando INNER JOIN.
---   Para QAs, isso é fundamental para validar a integridade referencial 
---   do banco (ex: garantir que não existem produtos "órfãos" sem categoria 
---   ou fornecedor) e para montar relatórios completos.
+--   Cruzar dados de múltiplas tabelas com INNER JOIN para validar a
+--   integridade referencial do banco (ex: garantir que não existem
+--   produtos "órfãos" sem categoria ou fornecedor) e montar
+--   relatórios completos.
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - products (p), categories (c), suppliers (s)
@@ -124,7 +124,7 @@ WHERE
 
 
 -- ============================================================
--- RESULTADO ESPERADO / RESUMO DA AULA:
+-- RESULTADO ESPERADO / RESUMO:
 --   INNER JOIN       → Retorna apenas os registros que têm correspondência 
 --                       exata em ambas as tabelas (interseção).
 --   Aliases de Tabela(p, c, s) → Atalhos para não repetir o nome da tabela toda hora.

@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 08 - Manipulação de Dados para Testes
--- AULA  : 37 - INSERT: criando massa de teste do zero
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 08 - Manipulação de Dados para Testes
+-- CONTEÚDO: INSERT — Criando Massa de Teste do Zero
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a inserir dados com INSERT para criar massa de teste.
---   Para QAs, isso é essencial para:
+--   Inserir dados com INSERT para criação de massa de teste:
 --   - Preparar dados controlados para testes
 --   - Popular tabelas com dados válidos
 --   - Criar cenários de teste específicos
@@ -119,7 +118,7 @@ ORDER BY id;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   INSERT INTO tabela (colunas) VALUES (valores) → Inserir registros
 --   Múltiplos VALUES → Inserir vários registros de uma vez
 --   ON CONFLICT (coluna) DO NOTHING → Evita duplicidade

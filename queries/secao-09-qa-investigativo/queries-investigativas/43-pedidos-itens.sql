@@ -1,11 +1,12 @@
 -- ============================================================
 -- PROJETO : SQL & Banco de Dados para QA
--- SEÇÃO   : 09 - QA Investigativo
--- BANCO   : Supabase Northwind (PostgreSQL)
+-- MÓDULO  : 09 - QA Investigativo
+-- CONTEÚDO: Pedidos e Itens
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Cada caso apresenta uma suspeita e você deve montar
---   a query que confirma ou descarta a hipótese.
+--   Cada caso apresenta uma suspeita e uma query que confirma
+--   ou descarta a hipótese levantada.
 -- ============================================================
 
 -- ============================================================

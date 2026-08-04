@@ -1,14 +1,14 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 32 - LEFT JOIN e RIGHT JOIN: encontrando o que falta
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: LEFT JOIN e RIGHT JOIN — Encontrando o que Falta
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a usar LEFT JOIN e RIGHT JOIN para encontrar registros 
---   que NÃO têm correspondência em outra tabela.
---   Para QAs, isso é essencial para identificar dados inconsistentes, como categorias sem produtos, produtos sem avaliações,
---   ou fornecedores sem produtos cadastrados.
+--   Usar LEFT JOIN e RIGHT JOIN para encontrar registros que NÃO
+--   têm correspondência em outra tabela, identificando dados
+--   inconsistentes: categorias sem produtos, produtos sem
+--   avaliações ou fornecedores sem produtos cadastrados.
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - categories (c), products (p), suppliers (s)
@@ -100,7 +100,7 @@ ORDER BY
 
 
 -- ============================================================
--- RESULTADO ESPERADO / RESUMO DA AULA:
+-- RESULTADO ESPERADO / RESUMO:
 --   LEFT JOIN        → Retorna TODOS os registros da tabela da ESQUERDA,
 --                      mesmo sem correspondência na DIREITA.
 --                      Onde não há match, os campos da direita são NULL.

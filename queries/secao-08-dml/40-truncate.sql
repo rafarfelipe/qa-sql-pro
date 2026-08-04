@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 08 - Manipulação de Dados para Testes
--- AULA  : 40 - TRUNCATE e quando usar (vs DELETE)
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 08 - Manipulação de Dados para Testes
+-- CONTEÚDO: TRUNCATE — Quando Usar (vs DELETE)
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a usar TRUNCATE para remover todos os dados de uma tabela.
---   Para QAs, isso é essencial para:
+--   Usar TRUNCATE para remover todos os dados de uma tabela:
 --   - Limpar massa de teste rapidamente
 --   - Resetar tabelas entre cenários de teste
 --   - Remover todos os dados de forma controlada
@@ -79,17 +78,17 @@ VALUES
 --   Pode usar WHERE                    |   NÃO pode usar WHERE
 -- ============================================================
 
--- RESUMO DA AULA:
+-- RESUMO:
 --   DELETE FROM tabela WHERE condição → Remove registros específicos
 --   TRUNCATE TABLE tabela → Remove TODOS os registros
 --   TRUNCATE CASCADE → Remove dados de tabelas relacionadas
 --   TRUNCATE RESTART IDENTITY → Reinicia a sequência de IDs
---   
+--
 --   Dica de QA → Use DELETE para remover dados específicos
 --                Use TRUNCATE para limpar massa de teste rapidamente
 --                NUNCA use TRUNCATE em produção sem autorização
 --                Sempre confirme antes de executar TRUNCATE
---   
+--
 --   Boas Práticas → - DELETE com WHERE específico
 --                   - TRUNCATE apenas em ambiente de teste
 --                   - Use CASCADE com cuidado

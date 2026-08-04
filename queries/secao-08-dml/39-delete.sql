@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 08 - Manipulação de Dados para Testes
--- AULA  : 39 - DELETE: removendo dados com controle
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 08 - Manipulação de Dados para Testes
+-- CONTEÚDO: DELETE — Removendo Dados com Controle
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a remover dados com DELETE de forma segura e controlada.
---   Para QAs, isso é essencial para:
+--   Remover dados com DELETE de forma segura e controlada:
 --   - Limpar massa de teste após execução
 --   - Remover dados inconsistentes
 --   - Resetar cenários de teste
@@ -68,20 +67,20 @@ WHERE id = 4;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   DELETE FROM tabela WHERE condição → Remover registros
 --   WHERE → Sempre use WHERE para evitar deletar tudo!
---   
+--
 --   REGRA DE OURO:
 --   1. SELECT antes → confirme o que será deletado
 --   2. COUNT antes → saiba quantos serão afetados
 --   3. DELETE depois → execute com segurança
 --   4. SELECT depois → confirme que foi removido
---   
+--
 --   Dica de QA → NUNCA execute DELETE sem WHERE em produção
 --                Use transações (BEGIN/COMMIT/ROLLBACK)
 --                Mantenha backup dos dados deletados
---   
+--
 --   Boas Práticas → - SEMPRE confirme com SELECT primeiro
 --                   - Use WHERE específico (ex: id = X)
 --                   - Evite LIKE em produção (pode pegar mais do que espera)

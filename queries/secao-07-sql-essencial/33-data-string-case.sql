@@ -1,14 +1,13 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 33 - Funções de data, string e CASE WHEN
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: Funções de Data, String e CASE WHEN
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a manipular dados com funções de data, string e CASE WHEN.
---   Para QAs, isso é essencial para validar formatos, padronizar dados
---   e criar classificações personalizadas que tornam os relatórios
---   mais legíveis para toda a equipe.
+--   Manipular dados com funções de data, string e CASE WHEN para
+--   validar formatos, padronizar dados e criar classificações
+--   personalizadas que tornam os relatórios mais legíveis.
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - orders (o), users (u)
@@ -190,7 +189,7 @@ LIMIT 20;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   Funções de Data   → EXTRACT (extrair partes), TO_CHAR (formatar)
 --   Funções de String → UPPER/LOWER (maiúscula/minúscula), 
 --                        SUBSTRING (extrair parte), TRIM (remover espaços)

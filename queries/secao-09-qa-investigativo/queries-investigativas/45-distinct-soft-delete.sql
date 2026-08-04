@@ -1,11 +1,11 @@
 -- ============================================================
 -- PROJETO : SQL & Banco de Dados para QA
--- SEÇÃO   : 09 - QA Investigativo
--- BANCO   : Supabase Northwind (PostgreSQL)
+-- MÓDULO  : 09 - QA Investigativo
+-- CONTEÚDO: DISTINCT e Soft Delete
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Práticos para fixar o uso de DISTINCT
---   em investigações de dados.
+--   Fixar o uso de DISTINCT em investigações de dados.
 -- ============================================================
 
 

@@ -1,12 +1,12 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 09 - QA Investigativo
--- GUIA  : 25 Comandos SQL Mais Utilizados
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 09 - QA Investigativo
+-- CONTEÚDO: 25 Comandos SQL Mais Utilizados
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
 --   Guia de referência rápida com os comandos SQL mais utilizados
---   em investigações de dados. Cada comando com exemplo prático.
+--   em investigações de dados, cada um com exemplo prático.
 -- ============================================================
 
 

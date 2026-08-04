@@ -1,11 +1,11 @@
 -- ============================================================
 -- PROJETO : SQL & Banco de Dados para QA
--- SEÇÃO   : 09 - QA Investigativo
--- BANCO   : Supabase Northwind (PostgreSQL)
+-- MÓDULO  : 09 - QA Investigativo
+-- CONTEÚDO: COALESCE e TRIM em Investigações
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Práticos para fixar o uso de COALESCE e TRIM
---   em investigações de dados.
+--   Fixar o uso de COALESCE e TRIM em investigações de dados.
 -- ============================================================
 
 

@@ -1,11 +1,12 @@
 -- ============================================================
 -- PROJETO : SQL & Banco de Dados para QA
--- SEÇÃO   : 09 - QA Investigativo
--- BANCO   : Supabase Northwind (PostgreSQL)
+-- MÓDULO  : 09 - QA Investigativo
+-- CONTEÚDO: Divergências entre UI, API e Banco
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Práticos para fixar os conceitos de DISTINCT,
---   Soft Delete, UUID e CAST em investigações de dados.
+--   Investigar divergências entre tela, API e banco usando
+--   DISTINCT, Soft Delete, UUID e CAST.
 -- ============================================================
 
 

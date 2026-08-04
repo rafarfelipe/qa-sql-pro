@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 08 - Manipulação de Dados para Testes
--- AULA  : 41 - Transações: BEGIN, COMMIT e ROLLBACK
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 08 - Manipulação de Dados para Testes
+-- CONTEÚDO: Transações (BEGIN, COMMIT e ROLLBACK)
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a usar transações para controlar alterações no banco.
---   Para QAs, isso é essencial para:
+--   Controlar alterações no banco com transações:
 --   - Testar regras de negócio sem sujar o banco
 --   - Validar dados antes de salvar
 --   - Desfazer alterações quando algo dá errado
@@ -104,7 +103,7 @@ SELECT id, name, price FROM products WHERE id = 848;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   BEGIN    → Inicia uma transação
 --   COMMIT   → Salva todas as alterações permanentemente
 --   ROLLBACK → Desfaz todas as alterações

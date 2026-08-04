@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 36 - Consultas Avançadas (Subqueries)
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: Consultas Avançadas (Subqueries)
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a usar subqueries para consultas dentro de consultas.
---   Para QAs, subqueries são úteis para:
+--   Usar subqueries (consultas dentro de consultas) para:
 --   - Filtrar dados com base em cálculos (ex: acima da média)
 --   - Calcular valores adicionais por linha
 --   - Verificar existência de registros relacionados
@@ -100,7 +99,7 @@ WHERE NOT EXISTS (
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   Subquery no WHERE  → Filtra com base em outra consulta
 --                       Ex: produtos acima da média
 --   

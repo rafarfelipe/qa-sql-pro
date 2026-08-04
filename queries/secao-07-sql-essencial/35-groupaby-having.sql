@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 35 - GROUP BY e HAVING: agrupando e filtrando resultados
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: GROUP BY e HAVING — Agrupando e Filtrando Resultados
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a agrupar dados com GROUP BY e filtrar grupos com HAVING.
---   Para QAs, isso é essencial para:
+--   Agrupar dados com GROUP BY e filtrar grupos com HAVING para:
 --   - Validar a distribuição de dados por categorias
 --   - Encontrar grupos com valores inconsistentes
 --   - Gerar relatórios consolidados para a equipe
@@ -68,7 +67,7 @@ ORDER BY preco_medio DESC;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   GROUP BY    → Agrupa registros para funções de agregação
 --   HAVING      → Filtra grupos (como WHERE, mas para grupos)
 --   

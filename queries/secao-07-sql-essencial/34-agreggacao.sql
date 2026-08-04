@@ -1,12 +1,11 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 34 - COUNT, MIN, MAX e AVG: resumindo dados para validação
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: COUNT, MIN, MAX e AVG — Resumindo Dados para Validação
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a usar funções de agregação para resumir e validar dados.
---   Para QAs, essas funções são essenciais para:
+--   Usar funções de agregação para resumir e validar dados:
 --   - Validar a quantidade de registros esperados
 --   - Encontrar valores extremos (maior/menor preço)
 --   - Calcular médias para análise de consistência
@@ -139,7 +138,7 @@ ORDER BY status;
 
 
 -- ============================================================
--- RESUMO DA AULA:
+-- RESUMO:
 --   COUNT(*)    → Conta o número total de registros
 --   COUNT(coluna) → Conta registros com valores não-nulos
 --   COUNT(DISTINCT coluna) → Conta valores únicos

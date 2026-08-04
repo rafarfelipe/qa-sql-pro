@@ -1,12 +1,12 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 26 - SELECT na Prática
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: SELECT na Prática
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Aprender a extrair dados com SELECT — colunas específicas,
---   alias e exploração das tabelas principais do projeto.
+--   Extrair dados com SELECT — colunas específicas, alias e
+--   exploração das tabelas principais do projeto.
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - products, categories, suppliers

@@ -1,14 +1,14 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 28 - Filtro, Ordenação e Operadores (SELECT, WHERE, ORDER BY, LIMIT)
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: Filtro, Ordenação e Operadores (WHERE, ORDER BY, LIMIT)
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Dominar a extração de dados específicos utilizando filtros (WHERE),
---   operadores de comparação, ordenação (ORDER BY) e controle de 
---   volume de registros (LIMIT) — habilidades cruciais para validação 
---   de dados e testes de API/Banco.
+--   Extrair dados específicos com filtros (WHERE), operadores de
+--   comparação, ordenação (ORDER BY) e controle de volume de
+--   registros (LIMIT) — base para validação de dados e testes
+--   de API/Banco.
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - products
@@ -172,7 +172,7 @@ LIMIT 25;
 
 
 -- ============================================================
--- RESULTADO ESPERADO / RESUMO DA AULA:
+-- RESULTADO ESPERADO / RESUMO:
 --   LIMIT          → Controla a quantidade de linhas retornadas (ex: 15, 25, 100).
 --   WHERE (=, <>)  → Filtra dados exatos ou exclui valores indesejados.
 --   WHERE (>)      → Filtra dados baseados em limites mínimos/numéricos.

@@ -1,12 +1,13 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 30 - Dados Ausentes e Vazios (NULL, IS NULL, IS NOT NULL)
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: Dados Ausentes e Vazios (NULL, IS NULL, IS NOT NULL)
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Identificar campos sem valor, não preenchidos e vazios diretamente no banco — problemas que a tela esconde
---   mas o QA precisa encontrar.
+--   Identificar campos sem valor, não preenchidos e vazios
+--   diretamente no banco — problemas que a tela esconde, mas
+--   que precisam ser encontrados na validação.
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - products

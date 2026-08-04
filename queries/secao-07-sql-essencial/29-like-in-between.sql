@@ -1,14 +1,14 @@
 -- ============================================================
--- CURSO : SQL & Banco de Dados para QA
--- SEÇÃO : 07 - SQL Essencial para QA (na prática)
--- AULA  : 29 - Buscas Inteligentes para Testes (LIKE, IN, BETWEEN)
--- BANCO : Supabase Northwind (PostgreSQL)
+-- PROJETO : SQL & Banco de Dados para QA
+-- MÓDULO  : 07 - SQL Essencial para QA
+-- CONTEÚDO: Buscas Inteligentes para Testes (LIKE, IN, BETWEEN)
+-- BANCO  : Supabase Northwind (PostgreSQL)
 -- ============================================================
 -- OBJETIVO:
---   Refinar a extração de dados utilizando operadores de padrão (LIKE),
---   listas de valores (IN/NOT IN) e intervalos (BETWEEN). Estas são 
---   as ferramentas essenciais para validar regras de busca, faixas 
---   de preço e cenários de borda (boundary testing) em testes de QA.
+--   Refinar a extração de dados com operadores de padrão (LIKE),
+--   listas de valores (IN/NOT IN) e intervalos (BETWEEN) para
+--   validar regras de busca, faixas de preço e cenários de borda
+--   (boundary testing).
 -- ============================================================
 -- TABELAS UTILIZADAS:
 --   - categories, products
@@ -238,7 +238,7 @@ LIMIT 10;
 
 
 -- ============================================================
--- RESULTADO ESPERADO / RESUMO DA AULA:
+-- RESULTADO ESPERADO / RESUMO:
 --   LIKE '%texto'  → Busca fuzzy (padrões). % no início = termina com; 
 --                     % no fim = começa com; % em ambos = contém.
 --   IN (a, b, c)   → Filtra registros que correspondem a qualquer valor da lista.
