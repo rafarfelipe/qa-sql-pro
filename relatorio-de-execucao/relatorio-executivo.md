@@ -78,7 +78,7 @@ WHERE name = 'informatica' AND is_active = true
 **Resultado obtido:** `FAILED` — 0 categorias 'informatica' ativas encontradas
 
 **Evidência da execução:**
-> ![Figura 1 — Resultado da Suite de Testes no DBeaver](evidencias/figura-1-suite-resultado.PNG)  
+> ![Figura 1 — Resultado da Suite de Testes no DBeaver](evidencias/figura-1-suite-resultado.png)  
 > *Figura 1 — Output com categoria 'informatica' inativa*
 
 **Resultado Esperado vs Atual:**
@@ -167,7 +167,7 @@ WHERE supplier_id IS NULL
 **Resultado obtido:** `FAILED` — 12 registros encontrados
 
 **Evidência da execução:**
-> ![Figura 3 — Assert FAILED regra_produto_tem_supplier](evidencias/figura-3-bug003-assert-failed.PNG)  
+> ![Figura 3 — Assert FAILED regra_produto_tem_supplier](evidencias/figura-3-bug003-assert-failed.png)  
 > *Figura 3 — Output mostrando produtos sem fornecedor (IDs: 935,936,937,938,939,940,941,351,369,408,237,782)*
 
 **Resultado Esperado vs Atual:**
