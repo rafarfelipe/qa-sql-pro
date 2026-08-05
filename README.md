@@ -69,8 +69,8 @@
 
 | ID | Investigação | Status | Evidência |
 |---|---|---|---|
-| INV-001 | Produto sem fornecedor vinculado | 🔴 Bug confirmado | [ver](queries/secao-10-asserts/50-bugs-select.sql) |
-| INV-002 | Categoria com nome vazio/nulo | 🔴 Bug confirmado | [ver](relatorio-de-execucao/relatorio-executivo.md#bug-002--regra_nome_categoria_obrigatorio) |
+| INV-001 | Produto sem fornecedor vinculado | 🔴 Bug confirmado | [ver](./relatorio-de-execucao/evidencias/figura-2-bug001-assert-failed.PNG) |
+| INV-002 | Categoria com nome vazio/nulo | 🔴 Bug confirmado | [ver](./relatorio-de-execucao/evidencias/figura-1-suite-resultado.PNG) |
 
 ---
 
