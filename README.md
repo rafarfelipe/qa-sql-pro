@@ -69,8 +69,8 @@
 
 | ID | Investigação | Status | Evidência |
 |---|---|---|---|
-| INV-001 | Produto sem fornecedor vinculado | 🔴 Bug confirmado | [ver](./relatorio-de-execucao/evidencias/figura-2-bug001-assert-failed.PNG) |
-| INV-002 | Categoria com nome vazio/nulo | 🔴 Bug confirmado | [ver](./relatorio-de-execucao/evidencias/figura-1-suite-resultado.PNG) |
+| INV-001 | Produto sem fornecedor vinculado | 🔴 Bug confirmado | [ver](./relatorio-de-execucao/evidencias/figura-3-bug003-assert-failed.png) |
+| INV-002 | Categoria com nome vazio/nulo | 🔴 Bug confirmado | [ver](./relatorio-de-execucao/evidencias/figura-2-bug002-assert-failed.png) |
 
 ---
 
