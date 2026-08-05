@@ -14,7 +14,7 @@
 |---------|-------|
 | **Total de Testes** | 8 |
 | **Aprovados (PASSED)** | 5 ✅ |
-| **Retificados (FAILED)** | 3 ❌ |
+| **Reprovados (FAILED)** | 3 ❌ |
 | **Alertas (WARNING)** | 0 ⚠️ |
 | **Percentual de Acerto** | 62.50% |
 
