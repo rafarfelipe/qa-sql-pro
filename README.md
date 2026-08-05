@@ -77,7 +77,7 @@
 ## 📁 Estrutura do Projeto
 
 ```
-qa-sql-northwind/
+qa-sql-pro/
 ├── queries/
 │   ├── secao-07-sql-essencial/
 │   ├── secao-08-dml/
