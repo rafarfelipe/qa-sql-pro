@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>QA Report - Validação de Categories</title>
+
+<style>
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f6fa;
+    margin:40px;
+    color:#2c3e50;
+}
+
+.container{
+    max-width:1300px;
+    margin:auto;
+}
+
+h1{
+    margin-bottom:5px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:35px;
+}
+
+.card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+}
+
+.card h2{
+    margin:0;
+    font-size:40px;
+}
+
+.success{
+    color:#27ae60;
+}
+
+.fail{
+    color:#c0392b;
+}
+
+.info{
+    color:#2980b9;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+}
+
+th{
+    background:#34495e;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+.status-pass{
+    color:#27ae60;
+    font-weight:bold;
+}
+
+.status-fail{
+    color:#c0392b;
+    font-weight:bold;
+}
+
+pre{
+    white-space:pre-wrap;
+    font-size:11px;
+    text-align:left;
+}
+
+.footer{
+    margin-top:40px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+}
+
+ul{
+    line-height:1.8;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>QA Validation Report</h1>
+
+<div class="subtitle">
+Validação da tabela <b>categories</b><br>
+Banco de Dados PostgreSQL
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total de Testes</h3>
+<h2 class="info">11</h2>
+</div>
+
+<div class="card">
+<h3>PASS</h3>
+<h2 class="success">5</h2>
+</div>
+
+<div class="card">
+<h3>FAIL</h3>
+<h2 class="fail">6</h2>
+</div>
+
+<div class="card">
+<h3>Taxa de Sucesso</h3>
+<h2 class="info">45%</h2>
+</div>
+
+</div>
+
+<table>
+
+<tr>
+<th>Teste</th>
+<th>Status</th>
+<th>Falhas</th>
+<th>IDs</th>
+</tr>
+
+<tr>
+<td>Critério 26 - Nome Obrigatório</td>
+<td class="status-fail">FAILED</td>
+<td>9</td>
+<td><pre>676,677,678,679,680,681,682,683,684</pre></td>
+</tr>
+
+<tr>
+<td>Critério 27 - Descrição Obrigatória</td>
+<td class="status-pass">PASSED</td>
+<td>0</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Critério 28 - Nome menor que 3 caracteres</td>
+<td class="status-fail">FAILED</td>
+<td>29</td>
+<td><pre>311,324,325,577,616,623,630,465,497,466,579...</pre></td>
+</tr>
+
+<tr>
+<td>Critério 29 - Nome maior que 100 caracteres</td>
+<td class="status-pass">PASSED</td>
+<td>0</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Critério 30 - Nome Duplicado</td>
+<td class="status-fail">FAILED</td>
+<td>11</td>
+<td><pre>61,670,676,677,678,679,680,681,682,683,684</pre></td>
+</tr>
+
+<tr>
+<td>Critério 31 - Descrição acima de 500 caracteres</td>
+<td class="status-pass">PASSED</td>
+<td>0</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Campos obrigatórios ausentes</td>
+<td class="status-fail">FAILED</td>
+<td>9</td>
+<td><pre>676,677,678,679,680,681,682,683,684</pre></td>
+</tr>
+
+<tr>
+<td>Nome fora do intervalo (3-100)</td>
+<td class="status-fail">FAILED</td>
+<td>29</td>
+<td><pre>311,324,325,577,616,623,630...</pre></td>
+</tr>
+
+<tr>
+<td>Descrição acima de 200 caracteres</td>
+<td class="status-pass">PASSED</td>
+<td>0</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>DELETE - Categoria utilizada por produtos</td>
+<td class="status-fail">FAILED</td>
+<td>33</td>
+<td><pre>2,4,5,6,9,10,11,12,26,50...</pre></td>
+</tr>
+
+<tr>
+<td>DELETE - Categoria sem produtos vinculados</td>
+<td class="status-pass">PASSED</td>
+<td>298</td>
+<td><pre>106,681,264,664,601,647,497...</pre></td>
+</tr>
+
+</table>
+
+<div class="footer">
+
+<h2>Resumo Executivo</h2>
+
+<ul>
+
+<li>✔ Foram executadas <b>11 validações automatizadas</b>.</li>
+
+<li>✔ <b>5 critérios aprovados</b>.</li>
+
+<li>❌ <b>6 critérios apresentaram falhas</b>.</li>
+
+<li>⚠ A maior concentração de inconsistências está relacionada à qualidade dos dados cadastrados (nome obrigatório, tamanho do nome e duplicidade).</li>
+
+<li>⚠ Existem <b>33 categorias</b> atualmente vinculadas a produtos, impossibilitando sua exclusão por integridade referencial.</li>
+
+<li>✔ Nenhuma descrição excede os limites estabelecidos.</li>
+
+<li>✔ Não foram encontrados nomes superiores a 100 caracteres.</li>
+
+</ul>
+
+<hr>
+
+<b>QA Engineer</b><br>
+
+Database Validation Report<br>
+
+Environment: PostgreSQL<br>
+
+Status Geral:
+<b style="color:#c0392b;">REPROVADO</b>
+
+</div>
+
+</div>
+
+</body>
+</html>
