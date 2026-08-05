@@ -119,17 +119,17 @@ FROM categories
 WHERE name = ''
 ```
 
-**Resultado obtido:** `FAILED` — 10 registros encontrados
+**Resultado obtido:** `FAILED` — 9 registros encontrados
 
 **Evidência da execução:**
 > ![Figura 2 — Assert FAILED regra_nome_categoria_obrigatorio](evidencias/figura-2-bug002-assert-failed.png)  
-> *Figura 2 — Output mostrando categorias com nome vazio (IDs: 91,701,702,704,706,708,710,711,712,713)*
+> *Figura 2 — Output mostrando categorias com nome vazio (IDs: 676,677,678,679,680,681,682,683,684)*
 
 **Resultado Esperado vs Atual:**
 
 | Expectativa | Atual |
 |-------------|-------|
-| PASSED — 0 categorias com `name IS NULL` ou `TRIM(name) = ''` | 10 categorias com nome inválido persistidas no banco |
+| PASSED — 0 categorias com `name IS NULL` ou `TRIM(name) = ''` | 9 categorias com nome inválido persistidas no banco |
 
 **Risco:**
 1. Categoria exibida sem nome na loja — experiência do usuário comprometida

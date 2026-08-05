@@ -95,13 +95,13 @@ WHERE name = 'informatica'
 
 UNION ALL
 
-SELECT 
+SELECT
   'regra_nome_categoria_obrigatorio',
   CASE WHEN COUNT(*) = 0 THEN 'PASSED' ELSE 'FAILED' END,
   COUNT(*),
   STRING_AGG(id::text, ', ')
 FROM categories
-WHERE name = ''
+WHERE name IS NULL OR TRIM(name) = ''
 
 UNION ALL
 
