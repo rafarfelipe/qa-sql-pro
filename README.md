@@ -34,8 +34,8 @@
 
 ## 📊 Relatórios ao Vivo
 
-> 🔗 [Relatório de Categorias](https://rafarfelipe.github.io/qa-sql-pro/evidencias/relatorio-categorias.html)
-> 🔗 [Relatório de Fornecedores](https://rafarfelipe.github.io/qa-sql-pro/evidencias/relatorio-fornecedores.html)
+> 🔗 [Relatório de Categorias](https://rafarfelipe.github.io/qa-sql-pro/queries/secao-11-IA-acelerador/relatorio-categorias.html)
+> 🔗 [Relatório de Fornecedores](https://rafarfelipe.github.io/qa-sql-pro/queries/secao-11-IA-acelerador/relatorio-fornecedores.html)
 
 ---
 
