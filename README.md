@@ -83,7 +83,6 @@ qa-sql-pro/
 │   ├── secao-08-dml/
 │   ├── secao-09-qa-investigativo/
 │   ├── secao-10-asserts/
-│   ├── secao-11-IA-acelerador/
 │   └── inserts-especificos/
 ├── docs/
 │   ├── architecture.md
